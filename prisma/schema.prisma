@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  DOCTOR
+  NURSE
+  RECEPTIONIST
+  LAB_TECH
+  PHARMACIST
+  ACCOUNTANT
+  PATIENT
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  fullName     String
+  passwordHash String
+  role         Role
+  createdAt    DateTime @default(now())
+}
+
+model Appointment {
+  id           String   @id @default(cuid())
+  patientName  String
+  phoneNumber  String
+  email        String
+  date         DateTime
+  time         String
+  department   String
+  doctor       String
+  reason       String
+  createdAt    DateTime @default(now())
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  fullName  String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  category    String
+  excerpt     String
+  content     String
+  publishedAt DateTime @default(now())
+}
