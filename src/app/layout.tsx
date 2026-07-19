@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
   },
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
+    google: "MM3Wu7GxdniNWRS901EunvHMBtNvINS3-xXF13CGSWo",
   },
   alternates: {
     canonical: siteConfig.url,
