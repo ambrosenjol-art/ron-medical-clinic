@@ -11,7 +11,7 @@ export default function LaboratoryPage() {
           <article key={test} className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
             <div className="mb-3 overflow-hidden rounded-xl bg-gradient-to-br from-sky-50 to-blue-50">
               <Image
-                src="/images/services/laboratory.svg"
+                src="/images/services/laboratory-services.svg"
                 alt={`${test} laboratory illustration`}
                 width={800}
                 height={520}

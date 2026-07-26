@@ -1,4 +1,5 @@
 import KenyaIdentityCard from "@/components/KenyaIdentityCard";
+import Link from "next/link";
 
 const metrics = [
   ["Today's Patients", "142"],
@@ -34,6 +35,14 @@ export default function AdminPage() {
         <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
           <h2 className="font-semibold text-slate-900">Charts</h2>
           <div className="mt-4 h-56 rounded-xl bg-slate-100" />
+        </div>
+        <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+          <h2 className="font-semibold text-slate-900">Quick Actions</h2>
+          <div className="mt-4 space-y-2">
+            <Link href="/admin/staff" className="flex items-center gap-3 rounded-xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-700 hover:bg-[#0077B6] hover:text-white transition">
+              <span>👥</span> Manage Staff Members
+            </Link>
+          </div>
         </div>
         <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
           <h2 className="font-semibold text-slate-900">Notifications & Recent Activity</h2>

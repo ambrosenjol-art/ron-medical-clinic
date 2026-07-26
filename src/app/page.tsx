@@ -1,4 +1,5 @@
 import AnimatedCounter from "@/components/AnimatedCounter";
+import HomeHeroActions from "@/components/HomeHeroActions";
 import Reveal from "@/components/Reveal";
 import SectionTitle from "@/components/SectionTitle";
 import ServiceCard from "@/components/ServiceCard";
@@ -29,11 +30,7 @@ export default function Home() {
           <p className="mb-3 inline-block rounded-full bg-sky-100 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#0077B6]">Trusted Family-Centered Healthcare</p>
           <h1 className="text-4xl font-bold leading-tight text-slate-900 md:text-6xl">Premium Clinical Care for Every Stage of Life</h1>
           <p className="mt-5 max-w-xl text-lg text-slate-600">RON Medical Center combines compassionate professionals, reliable diagnostics, and modern systems ready for EMR integration.</p>
-          <div className="mt-7 flex flex-wrap gap-3">
-            <Link href="/appointments" className="rounded-full bg-[#0077B6] px-6 py-3 font-semibold text-white hover:bg-[#005f90]">Book Appointment</Link>
-            <Link href="/services" className="rounded-full border border-[#0077B6] px-6 py-3 font-semibold text-[#0077B6] hover:bg-sky-50">Explore Services</Link>
-            <GoogleSearchLink />
-          </div>
+          <HomeHeroActions />
         </Reveal>
         <Reveal delay={0.15} className="glass rounded-3xl p-5 shadow-2xl">
           <div className="h-80 rounded-2xl bg-gradient-to-br from-[#0077B6] via-[#00B4D8] to-[#2ECC71]" aria-label="Clinic hero visual" />

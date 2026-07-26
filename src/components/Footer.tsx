@@ -5,6 +5,8 @@ const quickLinks = [
   ["Home", "/"],
   ["Services", "/services"],
   ["Appointments", "/appointments"],
+  ["Staff Login", "/staff-login"],
+  ["Staff Management", "/admin/staff"],
   ["Privacy Policy", "/privacy"],
   ["Terms of Service", "/terms"],
 ] as const;

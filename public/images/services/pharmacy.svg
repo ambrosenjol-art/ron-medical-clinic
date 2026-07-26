@@ -1,14 +1,30 @@
-<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="520" rx="40" fill="#EEF9FF"/>
-  <rect x="124" y="132" width="230" height="244" rx="30" fill="white"/>
-  <rect x="166" y="176" width="146" height="22" rx="11" fill="#D5ECF9"/>
-  <rect x="166" y="218" width="110" height="22" rx="11" fill="#D5ECF9"/>
-  <rect x="166" y="260" width="132" height="22" rx="11" fill="#D5ECF9"/>
-  <path d="M520 144C576.333 144 622 189.667 622 246V250C622 306.333 576.333 352 520 352V352C463.667 352 418 306.333 418 250V246C418 189.667 463.667 144 520 144V144Z" fill="white"/>
-  <rect x="444" y="172" width="152" height="56" rx="20" fill="#2ECC71"/>
-  <rect x="510" y="154" width="20" height="92" rx="10" fill="white"/>
-  <rect x="474" y="190" width="92" height="20" rx="10" fill="white"/>
-  <rect x="438" y="260" width="164" height="56" rx="28" fill="#0077B6"/>
-  <circle cx="488" cy="288" r="20" fill="white" fill-opacity="0.95"/>
-  <path d="M504 274L544 314" stroke="white" stroke-width="18" stroke-linecap="round"/>
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 780' role='img' aria-labelledby='title desc'>
+  <title id='title'>Pharmacy</title>
+  <desc id='desc'>Safe dispensing and medicine guidance</desc>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#f0f9ff'/>
+      <stop offset='100%' stop-color='#ecfeff'/>
+    </linearGradient>
+    <linearGradient id='band' x1='0' y1='0' x2='1' y2='0'>
+      <stop offset='0%' stop-color='#2563eb'/>
+      <stop offset='100%' stop-color='#0f172a'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='780' fill='url(#bg)'/>
+  <rect x='78' y='72' width='1044' height='636' rx='38' fill='#ffffff'/>
+  <rect x='78' y='72' width='1044' height='152' rx='38' fill='url(#band)'/>
+  <circle cx='1002' cy='148' r='62' fill='#ffffff' opacity='0.14'/>
+  <circle cx='168' cy='148' r='36' fill='#ffffff' opacity='0.14'/>
+  <text x='132' y='165' fill='#ffffff' font-family='Segoe UI, Arial, sans-serif' font-size='52' font-weight='700'>RON Medical Center</text>
+  <text x='132' y='318' fill='#0f172a' font-family='Segoe UI, Arial, sans-serif' font-size='60' font-weight='700'>Pharmacy</text>
+  <text x='132' y='382' fill='#334155' font-family='Segoe UI, Arial, sans-serif' font-size='34'>Safe dispensing and medicine guidance</text>
+  <text x='132' y='432' fill='#475569' font-family='Segoe UI, Arial, sans-serif' font-size='28'>Serving families with safe, modern and compassionate care.</text>
+  <rect x='132' y='486' width='358' height='80' rx='40' fill='#2563eb'/>
+  <text x='311' y='538' text-anchor='middle' fill='#ffffff' font-family='Segoe UI, Arial, sans-serif' font-size='32' font-weight='700'>Book Appointment</text>
+  <g transform='translate(880,420)'>
+    <circle cx='0' cy='0' r='140' fill='#e2e8f0'/>
+    <circle cx='0' cy='0' r='108' fill='#f8fafc'/>
+    <rect x='-90' y='-30' width='180' height='60' rx='30' fill='none' stroke='#2563eb' stroke-width='14'/><line x1='0' y1='-30' x2='0' y2='30' stroke='#2563eb' stroke-width='14'/><rect x='-84' y='-24' width='78' height='48' rx='24' fill='#2563eb' opacity='0.2'/>
+  </g>
 </svg>

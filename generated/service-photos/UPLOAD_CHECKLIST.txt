@@ -1,0 +1,27 @@
+Place one generated image per line below in this folder using EXACT filenames:
+
+general-consultation.png
+family-medicine.png
+pediatrics.png
+antenatal-care.png
+postnatal-care.png
+family-planning.png
+vaccination.png
+laboratory-services.png
+pharmacy.png
+hiv-testing-counselling.png
+diabetes-clinic.png
+hypertension-clinic.png
+minor-surgery.png
+wound-care.png
+emergency-care.png
+medical-checkups.png
+occupational-health.png
+nutrition-counselling.png
+
+Accepted extensions by importer: .png .jpg .jpeg .webp .svg
+Tip: Keep all files in one format (recommended: .png).
+
+After placing files, run:
+1) powershell -ExecutionPolicy Bypass -File .\scripts\import-service-images.ps1
+2) vercel --prod --yes

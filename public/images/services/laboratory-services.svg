@@ -1,13 +1,13 @@
 ﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 780' role='img' aria-labelledby='title desc'>
-  <title id='title'>Antenatal Care</title>
-  <desc id='desc'>Pregnancy monitoring and maternal support</desc>
+  <title id='title'>Laboratory Services</title>
+  <desc id='desc'>Accurate tests for faster decisions</desc>
   <defs>
     <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
       <stop offset='0%' stop-color='#f0f9ff'/>
       <stop offset='100%' stop-color='#ecfeff'/>
     </linearGradient>
     <linearGradient id='band' x1='0' y1='0' x2='1' y2='0'>
-      <stop offset='0%' stop-color='#f59e0b'/>
+      <stop offset='0%' stop-color='#0ea5e9'/>
       <stop offset='100%' stop-color='#0f172a'/>
     </linearGradient>
   </defs>
@@ -17,14 +17,14 @@
   <circle cx='1002' cy='148' r='62' fill='#ffffff' opacity='0.14'/>
   <circle cx='168' cy='148' r='36' fill='#ffffff' opacity='0.14'/>
   <text x='132' y='165' fill='#ffffff' font-family='Segoe UI, Arial, sans-serif' font-size='52' font-weight='700'>RON Medical Center</text>
-  <text x='132' y='318' fill='#0f172a' font-family='Segoe UI, Arial, sans-serif' font-size='60' font-weight='700'>Antenatal Care</text>
-  <text x='132' y='382' fill='#334155' font-family='Segoe UI, Arial, sans-serif' font-size='34'>Pregnancy monitoring and maternal support</text>
+  <text x='132' y='318' fill='#0f172a' font-family='Segoe UI, Arial, sans-serif' font-size='60' font-weight='700'>Laboratory Services</text>
+  <text x='132' y='382' fill='#334155' font-family='Segoe UI, Arial, sans-serif' font-size='34'>Accurate tests for faster decisions</text>
   <text x='132' y='432' fill='#475569' font-family='Segoe UI, Arial, sans-serif' font-size='28'>Serving families with safe, modern and compassionate care.</text>
-  <rect x='132' y='486' width='358' height='80' rx='40' fill='#f59e0b'/>
+  <rect x='132' y='486' width='358' height='80' rx='40' fill='#0ea5e9'/>
   <text x='311' y='538' text-anchor='middle' fill='#ffffff' font-family='Segoe UI, Arial, sans-serif' font-size='32' font-weight='700'>Book Appointment</text>
   <g transform='translate(880,420)'>
     <circle cx='0' cy='0' r='140' fill='#e2e8f0'/>
     <circle cx='0' cy='0' r='108' fill='#f8fafc'/>
-    <path d='M0 52C-54 12 -84 -16 -84 -54C-84 -84 -62 -104 -34 -104C-16 -104 -2 -94 8 -80C18 -94 32 -104 50 -104C78 -104 100 -84 100 -54C100 -16 70 12 16 52L8 58L0 52Z' fill='#f59e0b'/>
+    <path d='M-24 -102H24V-78L48 -26C62 -2 60 30 42 50C30 64 12 72 -8 72H-8C-28 72 -46 64 -58 50C-76 30 -78 -2 -64 -26L-40 -78V-102H-24Z' fill='none' stroke='#0ea5e9' stroke-width='14'/><rect x='-36' y='12' width='56' height='20' rx='10' fill='#0ea5e9' opacity='0.25'/>
   </g>
 </svg>
